@@ -48,6 +48,7 @@ h1 {
   font-size: 20px;
   float:left;
   color: var(--bodycolor);
+  margin: 0px 0px 20px 0px;
   padding: 0;}
 
 /* menu */
