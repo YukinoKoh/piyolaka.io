@@ -1,0 +1,113 @@
+/*
+ *  layout
+ */
+ body {
+  width: 100%;
+  margin: 0; }
+
+.fill{
+  width: 100%;
+}
+.full {
+    width: 100%;
+    float: left;
+    margin: 0 0 20px 0}
+
+.container {
+  width: 100%;
+  padding: 0;
+  margin:0 }
+
+.clear {
+  clear: both;
+  display: inline-block; }
+
+
+/* Small devices (phones, 767px and down) */
+@media only screen and (max-width: 1079px) {
+  .s-container {
+    margin: 32px;}
+  .s-full {
+    width: 100%;
+    float: left;
+    margin: 0 0 5px 0}
+  .s-hide {
+    display: none; }
+ }
+/* full (landscape tablets and large phones, 810px iPad 10.2″ (2021) and up) */
+@media only screen and (min-width: 1080px) {
+  .l-container{
+    margin: 46px}
+  .l-col6 {
+    width: 530px;
+    margin-right: 5px; 
+    margin-left: 5px; 
+    float: left;}
+    .l-col8 {
+    width: 810px;
+    margin: 0 auto;
+    }
+  .l-col12 {
+    width: 1080px;
+    float: inherit;
+    margin: 0 auto;
+    display: block;
+    position: relative; }
+}
+
+
+/* menu */
+.header-burger{
+  width: 18px;
+  float: right;
+  color: var(--sub);
+  cursor: pointer;
+  margin-right: 0px;
+}
+.menu-icon{
+  width: 18px;
+  margin-top: 12px;
+}
+.menu-container{
+  clear: both;
+  width: 100%;
+  height: 100vh;
+  padding: 32px 0px;
+  background-color: #ffffff;
+  }
+}
+
+.up{
+    opacity: 0;
+    transition: all 1s ease;
+  }
+   
+.up.show {
+    opacity: 1;
+    transform: none;
+  }
+   
+.op{
+    transform: translate(0, 20px);
+  }
+
+.hidden{
+  display: none;
+}
+.show{
+  display: block;
+}
+.rotate-menu-to-open {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  padding-top: 0px;
+  transition-duration: 0.5s;
+  width: 20px;
+}
+.rotate-menu-to-close {
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  padding-top: 0px;
+  transition-duration: 0.7s;
+  width: 18px;
+}

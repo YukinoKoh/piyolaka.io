@@ -1,0 +1,139 @@
+/*
+ *
+ * base
+ *
+ */
+
+@font-face {
+  font-family: "ClarikaProGeo-Lt";
+  src: url("../webFonts/ClarikaProGeoLt/font.woff2") format("woff2"), url("../webFonts/ClarikaProGeoLt/font.woff") format("woff"); }
+@font-face {
+  font-family: "ClarikaProGeo-Md";
+  src: url("../webFonts/ClarikaProGeoMd/font.woff2") format("woff2"), url("../webFonts/ClarikaProGeoMd/font.woff") format("woff"); }
+
+
+ :root {
+  --bodycolor: #000;
+  --selectedcolor: #5d6b01;
+  --subcolor: #999999;
+  --bgcolor: #ffffff;
+  --serif: "Playfair",  serif;
+  --sansserif: "ClarikaProGeo-Lt",  sansserif;
+  --serif-jp: "Sawarabi Mincho";
+  --sansserif-jp: "Noto Sans JP",
+}
+
+body{
+  background-color: var(--bgcolor);
+  color: var(--bodycolor);
+  font-size: 16px;
+  line-height: 26px;
+}
+  a, a:visited, a:active {
+  color: var(--bodycolor);
+  text-decoration: none;
+  border-bottom: none;   }
+  a:hover {
+  color: var(--selectedcolor);}
+
+.sub{
+  color: var(--subcolor);
+}
+
+/* title */
+h1 {
+  font-family:  var(--serif);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  float:left;
+  color: var(--bodycolor);
+  padding: 0;}
+
+/* menu */
+h2{
+  font-family:  var(--serif);
+  font-weight: 300;
+  font-style: normal;
+  font-size: 26px;
+  color: var(--bodycolor);
+  border-bottom: none;   
+  }
+
+  h2 a, h2 a:visited, h2 a:active {
+  color: var(--bodycolor);
+  text-decoration-line: none;
+  border-bottom: none;
+  border-bottom: none;} 
+  h2 a:hover {
+  color: var(--selectedcolor);
+  border-bottom: none;}
+
+
+  h3 {
+  font-family:  var(--serif);
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 2em;
+  text-align: center;
+  color: var(--bodycolor);
+  margin:200px 0px;
+  padding: 0;}
+
+  h4 {
+  font-family:  var(--serif);
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.1em;
+  text-align: left;
+  color: var(--bodycolor);
+  margin-top:160px;
+  margin-bottom:80px;
+  padding: 0;}
+
+  .introduction{
+
+  font-family: var(--sansserif);
+  font-weight: 300;
+  font-size: 1em;
+  font-style: normal;
+  text-align: justify;
+  margin-bottom: 60px;
+  }
+
+  .introduction-jp{
+
+  font-family: var(--sansserif-jp);
+  font-size:0.9em;
+  line-height: 2.5em;
+  font-style: normal;
+  text-align: justify;
+  margin-bottom: 60px;
+  }
+
+  .caption{
+  font-family: var(--serif);
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  text-align: right;
+  color: var(--subcolor);
+  margin:0px 0px 8px 0px;
+  padding: 0;
+  }
+
+  .italic{
+    font-style: italic;
+  }
+
+  ul.nonbullet{
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0;
+  line-height: 2em;
+  }
+  span.label {
+  display: inline-block;
+  width: 65px;
+  }
