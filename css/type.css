@@ -26,8 +26,8 @@
 body{
   background-color: var(--bgcolor);
   color: var(--bodycolor);
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1em;
+  line-height: 1.1em;
 }
   a, a:visited, a:active {
   color: var(--bodycolor);
@@ -106,7 +106,7 @@ h2{
   .introduction-jp{
 
   font-family: var(--sansserif-jp);
-  font-size:0.9em;
+  font-size:1em;
   line-height: 2.5em;
   font-style: normal;
   text-align: justify;
