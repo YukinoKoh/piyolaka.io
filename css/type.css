@@ -26,8 +26,8 @@
 body{
   background-color: var(--bgcolor);
   color: var(--bodycolor);
-  font-size: 1em;
-  line-height: 1.1em;
+  font-size: 1rem;
+  line-height: 1.1rem;
 }
   a, a:visited, a:active {
   color: var(--bodycolor);
@@ -45,7 +45,7 @@ h1 {
   font-family:  var(--serif);
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 1.3rem;
   float:left;
   color: var(--bodycolor);
   margin: 0px 0px 20px 0px;
@@ -56,7 +56,8 @@ h2{
   font-family:  var(--serif);
   font-weight: 300;
   font-style: normal;
-  font-size: 26px;
+  font-size: 2rem;
+  line-height: 3rem;
   color: var(--bodycolor);
   border-bottom: none;   
   }
@@ -75,8 +76,8 @@ h2{
   font-family:  var(--serif);
   font-weight: 300;
   font-style: normal;
-  font-size: 2em;
-  line-height: 2em;
+  font-size: 2rem;
+  line-height: 2rem;
   text-align: center;
   color: var(--bodycolor);
   margin:200px 0px;
@@ -86,7 +87,7 @@ h2{
   font-family:  var(--serif);
   font-weight: 300;
   font-style: normal;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   text-align: left;
   color: var(--bodycolor);
   margin-top:160px;
@@ -97,7 +98,7 @@ h2{
 
   font-family: var(--sansserif);
   font-weight: 300;
-  font-size: 1em;
+  font-size: 1rem;
   font-style: normal;
   text-align: justify;
   margin-bottom: 60px;
@@ -106,8 +107,8 @@ h2{
   .introduction-jp{
 
   font-family: var(--sansserif-jp);
-  font-size:1em;
-  line-height: 2.5em;
+  font-size: 1rem;
+  line-height: 2.5rem;
   font-style: normal;
   text-align: justify;
   margin-bottom: 60px;
@@ -117,7 +118,7 @@ h2{
   font-family: var(--serif);
   font-weight: 300;
   font-style: normal;
-  font-size: 1em;
+  font-size: 1rem;
   text-align: right;
   color: var(--subcolor);
   margin:0px 0px 8px 0px;
@@ -132,7 +133,7 @@ h2{
   list-style-type: none;
   margin-top: 20px;
   padding: 0;
-  line-height: 2em;
+  line-height: 2rem;
   }
   span.label {
   display: inline-block;
