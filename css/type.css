@@ -129,6 +129,7 @@ h2{
 
   .list{  
     line-height: 2rem;
+    width: 80%;
     float:left;
   }
   .list-label{
