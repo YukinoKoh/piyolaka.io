@@ -13,11 +13,6 @@
     float: left;
     margin: 0}
 
-.container {
-  width: 100%;
-  padding: 2rem;
-  margin: 0 auto;}
-
 .clear {
   clear: both;
   display: inline-block; }
