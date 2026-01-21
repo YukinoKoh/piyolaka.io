@@ -11,12 +11,12 @@
 .full {
     width: 100%;
     float: left;
-    margin: 0 0 20px 0}
+    margin: 0}
 
 .container {
   width: 100%;
   padding: 2rem;
-  margin: 0;}
+  margin: 0 auto;}
 
 .clear {
   clear: both;
@@ -27,7 +27,6 @@
 @media only screen and (max-width: 1079px) {
   .s-full {
     width: 90%;
-    float: left;
     margin: 0 auto;}
   .s-hide {
     display: none; }
@@ -56,7 +55,6 @@
   .l-col12 {
     width: 1080px;
     margin: 0 auto;
-    float: inherit;
     display: block;
     position: relative; 
   }
