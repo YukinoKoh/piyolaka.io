@@ -42,14 +42,12 @@ body{
 
 /* title */
 h1 {
-  font-family:  var(--serif);
+  font-family:  var(--sansserif);
   font-weight: 400;
   font-style: normal;
-  font-size: 1.3rem;
-  float:left;
-  color: var(--bodycolor);
-  margin: 0px 0px 20px 0px;
-  padding: 0;}
+  font-size: 2rem;
+  color: var(--subcolor);
+}
 
 /* menu */
 h2{
@@ -80,7 +78,7 @@ h2{
   line-height: 2rem;
   text-align: center;
   color: var(--bodycolor);
-  margin:200px 0px;
+  margin:15rem 0px;
   padding: 0;}
 
   h4 {
