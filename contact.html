@@ -14,7 +14,22 @@
   </head>
 
   <body>
-  	<div w3-include-html="res/header.html"></div>
+  	<!--<div w3-include-html="res/header.html"></div>-->
+    <div class="container">
+      <div class="burgercontainer" onclick="openburger(this)" id="menu-icon" >
+          <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <a href="index.html"><h1 class="toptitle">Yukino Kohmoto</h1></a>
+      
+      <div id="menu" class="hidden">
+          <h2><a href="artwork.html">Artwork</a></h2>
+          <h2><a href="index.html">About</a></h2>
+          <h2><a href="contact.html">Contact</a></h2>
+          <!--<p>JP | <a href="about.html" class="sub">EN</a></p>-->
+    </div>
+  </div>
   	
   	<div class="container">
 		<div class="s-full l-col12 clear">
