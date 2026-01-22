@@ -36,6 +36,8 @@ body{
   a:hover {
   color: var(--selectedcolor);}
 
+
+
 .sub{
   color: var(--subcolor);
 }
@@ -130,19 +132,25 @@ h2{
   font-weight: 300;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.4rem;
   text-align: right;
   color: var(--subcolor);
   margin:0px 0px 0.5rem 0px;
   padding: 0;
   }
 
-  .list{  
-    line-height: 2rem;
+  .list{
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .list-tab{  
+    line-height: 1.5rem;
     width: 80%;
     float:left;
+    margin-bottom: 0.5rem;
   }
   .list-label{
-    line-height: 2rem;
+    line-height: 1.5rem;
     width: 4rem;
     float:left;
   }
