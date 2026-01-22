@@ -31,14 +31,18 @@ body{
 }
   a, a:visited, a:active {
   color: var(--bodycolor);
-  text-decoration: none;
-  border-bottom: none;   }
+  text-decoration: auto;
+  border-bottom: 1px solid var(--bodycolor); }
   a:hover {
   color: var(--selectedcolor);}
 
 .sub{
   color: var(--subcolor);
 }
+.italic{
+  font-style: italic;
+}
+
 
 /* title */
 h1 {
@@ -63,7 +67,6 @@ h2{
   h2 a, h2 a:visited, h2 a:active {
   color: var(--bodycolor);
   text-decoration-line: none;
-  border-bottom: none;
   border-bottom: none;} 
   h2 a:hover {
   color: var(--selectedcolor);
@@ -78,7 +81,8 @@ h2{
   line-height: 2rem;
   text-align: center;
   color: var(--bodycolor);
-  margin:15rem 0px;
+  margin-top:15rem;
+  margin-bottom: 8rem;
   padding: 0;}
 
   h4 {
@@ -92,8 +96,16 @@ h2{
   margin-bottom:5rem;
   padding: 0;}
 
+  /* sub to h3*/
+  h5{
+  font-family: var(--sansserif);
+  color: var(--subcolor);
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 15rem;
+  }
   .introduction{
-
   font-family: var(--sansserif);
   font-weight: 300;
   font-size: 1rem;
@@ -124,10 +136,6 @@ h2{
   padding: 0;
   }
 
-  .italic{
-    font-style: italic;
-  }
-
   .list{  
     line-height: 2rem;
     width: 80%;
@@ -138,4 +146,3 @@ h2{
     width: 4rem;
     float:left;
   }
-
